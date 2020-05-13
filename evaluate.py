@@ -5,7 +5,7 @@ import sys
 import time
 
 from PIL import Image
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 
 from tqdm import trange

@@ -1,5 +1,5 @@
 from network import Network
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 class PSPNet101(Network):
     def setup(self, is_training, num_classes):

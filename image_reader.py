@@ -1,6 +1,6 @@
 import os
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 def image_mirroring(img, label):
     distort_left_right_random = tf.random_uniform([1], 0, 1.0, dtype=tf.float32)[0]

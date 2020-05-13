@@ -9,7 +9,7 @@ import os
 import sys
 import time
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 
 from model import PSPNet101

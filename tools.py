@@ -1,6 +1,6 @@
 import scipy.io as sio
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import os
 
 IMG_MEAN = np.array((103.939, 116.779, 123.68), dtype=np.float32)
